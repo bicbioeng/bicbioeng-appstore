@@ -1,2 +1,2 @@
-# bicbioeng-github-appstore.github.io
+# bicbioeng-appstore
 Github Website Page for all BicBioEng repositories

@@ -1,6 +1,7 @@
 # HTML Options
 html_logo = 'basin_logo.png'
 html_theme = 'asteroid_sphinx_theme'
+html_title = 'BASIN'
 html_theme_options = {              # currently all defaults
     #'analytics_id': 'UA-XXXXXXX-1',
     #'analytics_anonymize_ip': False,

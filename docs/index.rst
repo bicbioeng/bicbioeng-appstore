@@ -29,7 +29,7 @@ Tutorials
 Workflow
 ---------
 
-.. image:: ../BASIN-lite/www/extractor1.png
+.. image:: extractor1.png
 
 -------
 Videos

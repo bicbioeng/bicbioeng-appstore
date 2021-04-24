@@ -35,7 +35,11 @@ Workflow
 Videos
 -------
 
-Video tutorials for all BASIN applications can be found at our YouTube channel (https://www.youtube.com/channel/UCGe9s37qZSgvufQNPnAcyCw).
+Video tutorials for all BASIN applications can be found at our YouTube channel (https://www.youtube.com/channel/UCGe9s37qZSgvufQNPnAcyCw). Below you can find
+the first video in our BASINlite tutorial series.
+
+.. raw:: html
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/139lNDBp_YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ========
 tryBASIN

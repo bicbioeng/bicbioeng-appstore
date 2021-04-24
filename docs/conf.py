@@ -1,7 +1,7 @@
 project = 'BASIN'
 
 # HTML Options
-html_logo = 'basin_logo.png'
+html_logo = 'basin.png'
 html_title = 'BASIN'
 html_theme_options = {              # currently all defaults
     #'analytics_id': 'UA-XXXXXXX-1',

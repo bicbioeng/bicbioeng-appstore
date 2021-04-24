@@ -29,7 +29,15 @@ Tutorials
 Workflow
 ---------
 
-.. image:: extractor1.png
+Here is an abstract abstract illustration of experimental workflow in the BASIN application. Two sources of images and two types of image processing techniques can be used.
+First, desired features are extracted from the processed images. Then, statistical analytical tools are used to present the comparable results.
+
+.. image:: figure1.png
+
+Visualized below is the schematic overview of the BASIN workflow. As indicated, the application
+is divided into four main modules: input, extraction, analysis and visualization, and reporting.
+
+.. image:: figure2.png
 
 -------
 Videos
@@ -39,7 +47,8 @@ Video tutorials for all BASIN applications can be found at our YouTube channel (
 the first video in our BASINlite tutorial series.
 
 .. raw:: html
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/139lNDBp_YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/139lNDBp_YY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ========
 tryBASIN

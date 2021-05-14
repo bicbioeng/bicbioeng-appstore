@@ -115,7 +115,9 @@ Overview
 BASIN-ML is a developmental package that utilizes the BASIN-lite workflow but
 in addition incorporates Python-based cell segmentation models for improved
 cell detection. We have two available models in our developmental version:
-Cellpose (#TODO: citation) and a Tensorflow-based U-Net model (#TODO: citation).
+Cellpose [1]_ and a Tensorflow-based U-Net model.
+
+.. [1] Stringer, C., Wang, T., Michaelos, M. et al. Cellpose: a generalist algorithm for cellular segmentation. Nat Methods 18, 100–106 (2021). https://doi.org/10.1038/s41592-020-01018-x
 
 ------------
 Installation

@@ -8,14 +8,15 @@ Objective
 
 In order to assist researchers with quantitative, objective analysis of experiments
 involving cell treatment and/or movement, we have developed a suite of applications
-under the BASIN Project.
+under the BASIN Project.  
 
 BASIN is a set of R packages that utilize Shiny to provide a user interface
 for statistical analysis of two-dimensional confocal microscope images. Users
 can upload two images directly or a folder of images with the help of a
 user-generated csv file, edit their experimental design, create tables and
 graphs for analysis results, and generate a fully-formatted report of their
-experiment.
+experiment. Source code for the BASIN applications can be found at our Github 
+repository at https://github.com/bicbioeng/BASIN.
 
 ------------
 Publication
@@ -29,7 +30,7 @@ Tutorials
 Workflow
 ---------
 
-Here is an abstract abstract illustration of experimental workflow in the BASIN application. Two sources of images and two types of image processing techniques can be used.
+Here is an abstract illustration of experimental workflow in the BASIN application. Two sources of images and two types of image processing techniques can be used.
 First, desired features are extracted from the processed images. Then, statistical analytical tools are used to present the comparable results.
 
 .. image:: figure1.png

@@ -10,7 +10,7 @@ Welcome to BASIN!
    :align: right
 
    `FAIR Assessment`_
-.. _FAIR Assessment: https://fairshake.cloud/project/130/stats/
+   .. _FAIR Assessment: https://fairshake.cloud/project/130/stats/
 
 ---------
 Objective

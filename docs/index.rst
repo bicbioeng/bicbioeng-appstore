@@ -1,3 +1,7 @@
+=================
+Welcome to BASIN!
+=================
+
 .. figure:: fair_chart.png
    :height: 180 px
    :width: 180 px
@@ -6,12 +10,7 @@
    :align: right
 
    `FAIR Assessment`_
-
 .. _FAIR Assessment: https://fairshake.cloud/project/130/stats/
-
-=================
-Welcome to BASIN!
-=================
 
 ---------
 Objective

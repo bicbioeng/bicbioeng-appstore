@@ -1,3 +1,14 @@
+.. figure:: fair_chart.png
+   :height: 180 px
+   :width: 180 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
+
+   `FAIR Assessment`_
+
+.. _FAIR Assessment: https://fairshake.cloud/project/130/stats/
+
 =================
 Welcome to BASIN!
 =================
@@ -8,14 +19,14 @@ Objective
 
 In order to assist researchers with quantitative, objective analysis of experiments
 involving cell treatment and/or movement, we have developed a suite of applications
-under the BASIN Project.  
+under the BASIN Project.
 
 BASIN is a set of R packages that utilize Shiny to provide a user interface
 for statistical analysis of two-dimensional confocal microscope images. Users
 can upload two images directly or a folder of images with the help of a
 user-generated csv file, edit their experimental design, create tables and
 graphs for analysis results, and generate a fully-formatted report of their
-experiment. Source code for the BASIN applications can be found at our Github 
+experiment. Source code for the BASIN applications can be found at our Github
 repository at https://github.com/bicbioeng/BASIN.
 
 ------------
@@ -39,6 +50,11 @@ Visualized below is the schematic overview of the BASIN workflow. As indicated, 
 is divided into four main modules: input, extraction, analysis and visualization, and reporting.
 
 .. image:: figure2.png
+
+We provide a `notebook`_ on Kaggle that can be used to run the full workflow and visualize all code used in our analysis.
+
+.. _notebook: https://www.kaggle.com/evgeniradichev/basin-workflow
+
 
 -------
 Videos

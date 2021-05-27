@@ -220,7 +220,7 @@ Python Setup:
   - Activate the environment using ``conda activate basin``
   - Run cellpose using ``python -m cellpose``
   - If the cellpose GUI appears, your installation has been successful
-6. Once Python installation is complete, you can always run cellpose by running ``python -m cellpose``in the Anaconda terminal. Note that any time you open a new Anaconda terminal, you will have to re-run the ``conda activate basin`` command in order to activate your cellpose environment.
+6. Once Python installation is complete, you can always run cellpose by running ``python -m cellpose`` in the Anaconda terminal. Note that any time you open a new Anaconda terminal, you will have to re-run the ``conda activate basin`` command in order to activate your cellpose environment.
 
 -----------------------
 Running the Application

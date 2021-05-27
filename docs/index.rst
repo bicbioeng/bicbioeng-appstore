@@ -5,7 +5,7 @@
    :alt: alternate text
    :align: right
 
-   ``FAIR Assessment``_
+   `FAIR Assessment`_
 .. _FAIR Assessment: https://fairshake.cloud/project/130/stats/
 
 =================
@@ -80,7 +80,7 @@ section of BASIN.
 Users can generate a report containing all figures and analysis in the Reporter module.
 We provide these reports in HTML, PDF, and Word format.
 
-We provide a ``notebook``_ on Kaggle that can be used to run the full workflow and visualize all code used in our analysis.
+We provide a `notebook`_ on Kaggle that can be used to run the full workflow and visualize all code used in our analysis.
 
 .. _notebook: https://www.kaggle.com/evgeniradichev/basin-workflow
 
@@ -132,7 +132,9 @@ Installation
     "shinydashboard", "shinycssloaders", "shinythemes", "shinyWidgets",
     "DT", "stringi", "ggpubr", "tcltk", "autothresholdr", "rmarkdown"))
   if (!requireNamespace("BiocManager", quietly = TRUE))
+
     install.packages("BiocManager") #installs Bioconductor
+
     BiocManager::install("EBImage") #installs EBImage
 
 3. Restart your R session inside RStudio using the Restart R button under the Session tab found in the top Menu bar.
@@ -141,7 +143,7 @@ Installation
 Running the Application
 -----------------------
 
-1. Download the BASIN-lite folder from the ``github``_ repository.
+1. Download the BASIN-lite folder from the `github`_ repository.
 2. Find the ui.R or server.R file in the folder and open it inside RStudio.
 3. At the top right corner of the opened file, there should be a green triangular button next to the text "Run App". Use that button to start your application.
 
@@ -180,7 +182,9 @@ R Setup:
     "shinydashboard", "shinycssloaders", "shinythemes", "shinyWidgets",
     "DT", "stringi", "ggpubr", "tcltk", "autothresholdr", "rmarkdown"))
   if (!requireNamespace("BiocManager", quietly = TRUE))
+
     install.packages("BiocManager") #installs Bioconductor
+
     BiocManager::install("EBImage") #installs EBImage
 
 3. Install the reticulate, keras, and tensorflow packages in RStudio using
@@ -188,13 +192,19 @@ R Setup:
 4. Restart your R session inside RStudio using the Restart R button under the Session tab found in the top Menu bar.
 5. Test the ability for the packages to connect to the Python environment by running the following commands in R::
 
-  library(reticulate)
-  env <- conda_list()$name == "basin"
-  envPath <- conda_list()[env,]$python
-  envPath <- stringi::stri_replace(envPath,"",regex = "python.exe")
-  reticulate::use_condaenv(envPath, required=TRUE)
-  keras::use_condaenv(envPath, required=TRUE)
-  tensorflow::use_condaenv(envPath, required=TRUE)
+    library(reticulate)
+
+    env <- conda_list()$name == "basin"
+
+    envPath <- conda_list()[env,]$python
+
+    envPath <- stringi::stri_replace(envPath,"",regex = "python.exe")
+
+    reticulate::use_condaenv(envPath, required=TRUE)
+
+    keras::use_condaenv(envPath, required=TRUE)
+
+    tensorflow::use_condaenv(envPath, required=TRUE)
 
 ~~~~~~~~~~~~~
 Python Setup:
@@ -203,20 +213,20 @@ Python Setup:
 1. Install Anaconda on your local machine:
   - Quick Setup - install Miniconda using the following link: https://docs.conda.io/en/latest/miniconda.html
   - If any successive steps don’t work, uninstall Miniconda and install Anaconda instead using the following link: https://docs.anaconda.com/anaconda/install/
-2. Open the Anaconda terminal (Anaconda Prompt) and switch to the folder containing the “full_environment.yml” file using `` cd path\to\folder\... ``
-3. Install the BASIN python environment using the command `` conda env create -f full_environment.yml `` - this will take a few minutes
+2. Open the Anaconda terminal (Anaconda Prompt) and switch to the folder containing the “full_environment.yml” file using ``cd path\to\folder\... ``
+3. Install the BASIN python environment using the command ``conda env create -f full_environment.yml``- this will take a few minutes
 4. Make sure you have the latest version of cellpose by running ``pip install cellpose --upgrade``
 5. Ensure the installation worked by executing the following commands in the terminal:
-  - Activate the environment using `` conda activate basin ``
-  - Run cellpose using `` python -m cellpose ``
+  - Activate the environment using ``conda activate basin``
+  - Run cellpose using ``python -m cellpose``
   - If the cellpose GUI appears, your installation has been successful
-6. Once Python installation is complete, you can always run cellpose by running `` python -m cellpose `` in the Anaconda terminal. Note that any time you open a new Anaconda terminal, you will have to re-run the `` conda activate basin `` command in order to activate your cellpose environment.
+6. Once Python installation is complete, you can always run cellpose by running ``python -m cellpose``in the Anaconda terminal. Note that any time you open a new Anaconda terminal, you will have to re-run the ``conda activate basin`` command in order to activate your cellpose environment.
 
 -----------------------
 Running the Application
 -----------------------
 
-1. Download the BASIN-ML folder from the ``github``_ repository.
+1. Download the BASIN-ML folder from the `github`_ repository.
 2. Find the ui.R or server.R file in the folder and open it using RStudio.
 3. At the top right corner of the opened file, there should be a green button next to the text "Run App". Use that button to start your application. Note that it will take a few seconds for it to load the Python environment.
 4. Some users experience app crashes or freezes after the first run through. You will need to restart your R session if this happens.

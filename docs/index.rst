@@ -128,14 +128,15 @@ Installation
 1. Make sure you have the latest version of R (https://cran.r-project.org/) and Rstudio (https://www.rstudio.com/products/rstudio/) installed on your computer (free and open-source, available online). Rstudio is an IDE for the R programming language, and all successive steps should be ran through the Rstudio terminal.
 2. Install the required R and Bioconductor packages::
 
-  install.packages(c("purrr", "plyr", "shiny", "shinyBS", "shinyjs",
-    "shinydashboard", "shinycssloaders", "shinythemes", "shinyWidgets",
-    "DT", "stringi", "ggpubr", "tcltk", "autothresholdr", "rmarkdown"))
-  if (!requireNamespace("BiocManager", quietly = TRUE))
-
-    install.packages("BiocManager") #installs Bioconductor
-
-    BiocManager::install("EBImage") #installs EBImage
+   install.packages(c("purrr", "plyr", "shiny", "shinyBS", "shinyjs",
+     "shinydashboard", "shinycssloaders", "shinythemes", "shinyWidgets",
+     "DT", "stringi", "ggpubr", "tcltk", "autothresholdr", "rmarkdown"))
+   
+   if (!requireNamespace("BiocManager", quietly = TRUE))
+   
+      install.packages("BiocManager") #installs Bioconductor
+      
+      BiocManager::install("EBImage") #installs EBImage
 
 3. Restart your R session inside RStudio using the Restart R button under the Session tab found in the top Menu bar.
 
@@ -178,14 +179,15 @@ R Setup:
 1. Make sure you have the latest version of R (https://cran.r-project.org/) and Rstudio (https://www.rstudio.com/products/rstudio/) installed on your computer (free and open-source, available online). Rstudio is an IDE for the R programming language, and all successive steps should be ran through the Rstudio terminal.
 2. Install the required R and Bioconductor packages::
 
-  install.packages(c("purrr", "plyr", "shiny", "shinyBS", "shinyjs",
-    "shinydashboard", "shinycssloaders", "shinythemes", "shinyWidgets",
-    "DT", "stringi", "ggpubr", "tcltk", "autothresholdr", "rmarkdown"))
-  if (!requireNamespace("BiocManager", quietly = TRUE))
-
-    install.packages("BiocManager") #installs Bioconductor
-
-    BiocManager::install("EBImage") #installs EBImage
+   install.packages(c("purrr", "plyr", "shiny", "shinyBS", "shinyjs",
+     "shinydashboard", "shinycssloaders", "shinythemes", "shinyWidgets",
+     "DT", "stringi", "ggpubr", "tcltk", "autothresholdr", "rmarkdown"))
+   
+   if (!requireNamespace("BiocManager", quietly = TRUE))
+   
+      install.packages("BiocManager") #installs Bioconductor
+      
+      BiocManager::install("EBImage") #installs EBImage
 
 3. Install the reticulate, keras, and tensorflow packages in RStudio using
   ``install.packages(c(“reticulate”, “keras”, “tensorflow”))``

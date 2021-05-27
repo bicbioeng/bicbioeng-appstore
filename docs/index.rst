@@ -130,7 +130,7 @@ Installation
 
   install.packages(c("purrr", "plyr", "shiny", "shinyBS", "shinyjs",
     "shinydashboard", "shinycssloaders", "shinythemes", "shinyWidgets",
-    "DT", "stringi", "ggpubr", "tcltk", "autothresholdr", "rmarkdown"))``
+    "DT", "stringi", "ggpubr", "tcltk", "autothresholdr", "rmarkdown"))
   if (!requireNamespace("BiocManager", quietly = TRUE))
     install.packages("BiocManager") #installs Bioconductor
     BiocManager::install("EBImage") #installs EBImage
